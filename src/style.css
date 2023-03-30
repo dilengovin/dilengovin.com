@@ -1,0 +1,14 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.socials {
+    margin-right: 1em;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
