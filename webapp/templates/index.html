@@ -11,7 +11,7 @@
 <html lang="en">
 
     <head>
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script></script>
         <title>Dilen Govin</title>
@@ -21,7 +21,7 @@
 
         <h1>Dilen Govin</h1>
         <p>
-            <a href="./assets/DilenGovin_Resume.pdf">Resume</a>
+            <a href="{{ url_for('static', filename='DilenGovin_Resume.pdf')}}">Resume</a>
         </p>
 
         <!-- <a href="https://twitter.com/" class="socials">
@@ -88,7 +88,7 @@
             </tr>
         </table>
 
-        <div class="job-container">
+        <!-- <div class="job-container">
             <div class="job-item">
                 <span class="job-title">Platform Support Engineer II</span>
                 <span class="job-company">Honeywell Inc.</span>
@@ -141,7 +141,7 @@
                 <span class="job-skill">TypeScript</span>
             </div>
 
-        </div>
+        </div> -->
 
 
         <h2>Projects</h2>
