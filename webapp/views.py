@@ -8,7 +8,3 @@ from . import app
 def home():
     return render_template("index.html")
 
-""" @app.route("/resume")
-def resume():
-    with open('/assets/DilenGovin_Resume.pdf', 'rb') as static_file:
-        return send_file(static_file, attachment_filename='DilenGovin_Resume.pdf') """
