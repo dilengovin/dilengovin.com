@@ -1,7 +1,14 @@
+/*
+
+File: style.css
+Author: Dilen Govin
+Purpose: Styling for html served for dilengovin.com
+
+*/
+
 body {
     background-color: darkslategray;
     font-family: monospace;
-    /*font-size: 14pt;*/
     color: white;
 }
 

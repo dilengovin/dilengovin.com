@@ -1,3 +1,11 @@
+'''
+
+File: app.py
+Author: Dilen Govin
+Purpose: Backend for routing and serving the html files
+
+'''
+
 from flask import Flask
 from flask import render_template
 
