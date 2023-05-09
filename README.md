@@ -12,7 +12,7 @@ gh repo clone dilengovin/dilengovin.com
 python -m venv venv
 source venv/bin/activate
 ```
-For Windows
+(For Windows)
 ```bash
 python -m venv venv
 YOUR_PROJECT_DIRECTORY/.venv/Scripts/Activate.ps1
